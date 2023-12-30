@@ -38,9 +38,41 @@ function returnParameter(n) {
   function concatTwoStrings(string1, string2) {
     return string1 + string2;
   }
-  function fullName(firstName, lastName) {
+  function fullname(firstName, lastName) {
     return firstName + " " + lastName;
   }
+  function square(number) {
+    return number *number;
+  }
+  function cube(number) {
+    return number * number * number;
+  }
+  function charAtIndex(string, number) {
+    return string.charAt(number);
+  }
+  function addFourNums(num1, num2, num3, num4) {
+    return num1 + num2 + num3 + num4;
+  }
+  function perimeterRect(width, length) {
+   
+    return  2 * (width + length);
+    
+}
+function areaRect(width, length) {
+    return width * length;
+}
+function perimeterTriangle(side1, side2, side3) {
+    return side1 + side2 + side3;
+}
+function areaTriangle(base, height) {
+    return 0.5 * base * height;
+}
+function tripleArea(width, length) {
+    return 3 * (width * length);
+}
+
+  
+  
   
   
 
